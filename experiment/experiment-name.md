@@ -1,1 +1,1 @@
-## Experiment name
+## Forced vibration of SDOF system
