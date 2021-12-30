@@ -2,38 +2,85 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which of the following is a forced vibration system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Wind blowing at tree top",
+        "b": "Ocean waves at offshore rig",
+        "c": "Car moving on a rough road",
+        "d": "All of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "d",
+      "difficulty": ""
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Under static condition due to an operating force if a 10N/m stiff 10kg system undergoes a deflection of 10cm, what is the amplitude of force ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "0.1N",
+        "b": "10N",
+        "c": "1N",
+        "d": "None of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": ""
+    },
+    {
+      "question": "What is the governing equation for forced vibration system with harmonic excitation ?",
+      "answers": {
+        "a": "<img src=\"./images/exp4T2.png\" style='height:auto;width:auto'/>",
+        "b": "<img src=\"./images/exp4T1.png\" style='height:auto;width:auto'/>",
+        "c": "<img src=\"./images/exp4T4.png\" style='height:auto;width:auto'/>",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Solution of forced vibration system consists of",
+      "answers": {
+        "a": "Only Steady State part",
+        "b": "Only Transient Part",
+        "c": "Both Steady State and Transient part",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "<img src='./images/exp4Q1.png' style='height:auto;width:auto'/><br>The above equation gives the steady state amplitude for a system excited by an external harmonic force.",
+      "answers": {
+        "a": "true",
+        "b": "false"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
     }
   ]
 }
