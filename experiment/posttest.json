@@ -36,7 +36,7 @@
       "difficulty": ""
     },
     {
-      "question": "Phase difference between input and response at resonance is 90o",
+      "question": "Phase difference between input and response at resonance is 90<sup>o</sup>",
       "answers": {
         "a": "false",
         "b": "true"
