@@ -148,6 +148,7 @@
   .tool-list span {
     display: inline-block;
     font-size: 1.6rem;
+    font-weight: 500;
   }
 
   .icons {
@@ -382,6 +383,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 100%;
   }
  
 
@@ -405,17 +407,39 @@
     row-gap: 1rem;
   }
 
-  .variables-sections{
+  /* .variables-sections{
     position: relative;
     left: 23px;
-  }
+  } */
 
   .var-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem 2rem;
+  }
+
+  .input-container {
     display: grid;
-    grid-template-columns: 80fr 20fr;
-    row-gap: 1rem;
-    column-gap: 2rem;
-    /* align-self: flex-end; */
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .input-container label {
+    margin-left: -2rem;
+  }
+  .input-container span + span {
+    margin-right: 4rem;
+  }
+  .var-spinner {
+    display: inline-block;
+  }
+  
+  .var-slider {
+    width: 15rem;
+    margin-left: 6rem;
   }
 
   #comments {
@@ -437,7 +461,7 @@
 
   }
 
-  #stiffspinner,
+  /* #stiffspinner,
   #massspinner,
   #dampspinner,
   #forcespinner,
@@ -451,7 +475,7 @@
     position: relative;
     bottom: 15px;
 
-  }
+  } */
 
 
   .stiff {
