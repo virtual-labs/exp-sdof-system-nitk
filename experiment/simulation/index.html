@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SOLVE-MDMV-Forced vibration of SDOF system</title>
+  <title>SOLVE - Machine Dynamics and Mechanical Vibrations Lab - Forced vibration of SDOF system</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -72,7 +72,7 @@
           <span>Results</span>
         </li>
         <li class="tool-list" >
-          <img id="playpausebutton" title="Play/Pause"  onclick="simstate()" src="images/bluepausedull.svg" alt="" class="icons" />
+          <img id="playpausebutton"  onclick="simstate()" src="images/bluepausedull.svg" alt="" class="icons" />
           <span class="playPause">Pause</span>
         </li>
         <li class="tool-list" title="Graph">
@@ -113,22 +113,22 @@
           </div>
         </div>
 
-        <div id="variables" class="main__task-div" class="variable">
+        <div id="variables" class="main__task-div" >
           <div class="settings-sections">
             <h3 class="task-title">Variables</h3>
             <div class="variables-sections">
 
-              <div id="commentboxleft"></div>
+              <!-- <div id="commentboxleft"></div> -->
 
-              <div id="variables">
-                <div class="variable">
+              <!-- <div id="variables">
+                <div class="variable"> -->
 
-                  <div class="varname">
+                  <!-- <div class="varname">
                     <p title="Stifness" ><span class="text">Stiffness</span> <span class="unit">N/mm</span></p>
                    
                     <span class="inputBox inputBoxstiff">
                       <span class="in">
-                      <input id="stiffspinner" type="number"/>
+                      <input id="stiffspinner" />
                     </span>
                     </span>
                  
@@ -138,7 +138,7 @@
                   <div class="varname">
                     <p title="Mass" ><span class="text1">Mass</span> <span class="unit2">kg</span></p>
                     <span class="inputBox">
-                      <input id="massspinner" type="number"/>
+                      <input id="massspinner" />
                     </span>
 
                   </div>
@@ -146,24 +146,93 @@
                   <div class="varname">
                     <p title="Damping Ratio" ><span class="damp"><span class="text2">Damping Ratio</span></span></p>
                     <span class="inputBox inputBox1">
-                      <input id="dampspinner" type="number" />
+                      <input id="dampspinner" />
                     </span>
                   </div>
                   <div id="dampslider"></div>
                   <div class="varname">
                     <p title="Force Amp"><span class="text3">Force Amp</span> <span class="unit3">N</span></p>
                     <span class="inputBox">
-                      <input id="forcespinner" type="number" />
+                      <input id="forcespinner" />
                     </span>
                   </div>
 
                   <div class="varname">
                     <p title="Force Freq"><span class="text4">Forcing Freq </span><span class="inputBoxFreq"><input
-                          id="frequencyspinner" type="number" /></span><br><span class="unitFreq">rad/s</span></p>
-                  </div>
-                </div>
-              </div>
+                          id="frequencyspinner" /></span><br><span class="unitFreq">rad/s</span></p>
+                  </div> -->
 
+                <!-- </div>
+              </div> -->
+              <div class="var-div">
+                <div class="input-container">
+                  <label for="stiffnessSpinner">Stiffness</label>
+                  <input
+                    class="var-spinner"
+                    id="stiffspinner"
+                    name="value"
+                  
+                  />
+                  <span>N/mm</span>
+                </div>
+                <div class="var-slider" id="stiffslider"></div>
+              </div>
+              <div class="var-div">
+                <div class="input-container">
+                  <label for="massSpinner">Mass</label>
+                  <input class="var-spinner" id="massspinner" name="value" />
+                  <span>k/g</span>
+                </div>
+                <div class="var-slider" id="massslider"></div>
+              </div>
+              <div class="var-div">
+                <div class="input-container">
+                  <label for="dampingSpinner"
+                    >Damping<br />
+                    Ratio</label
+                  >
+                  <input
+                    class="var-spinner"
+                    id="dampspinner"
+                    name="value"
+                   
+                  />
+                  <span></span>
+                </div>
+                <div class="var-slider" id="dampslider"></div>
+              </div>
+              <div class="var-div">
+                <div class="input-container">
+                  <label for="forcespinner"
+                    >Force Amp
+                   </label
+                  >
+                  <input
+                    class="var-spinner"
+                    id="forcespinner"
+                    name="value"
+                   
+                  />
+                  <span>N</span>
+                </div>
+                <div class="var-slider" id="magnitudeSlider"></div>
+              </div>
+              <div class="var-div">
+                <div class="input-container">
+                  <label for="frequencySpinner"
+                    >Forcing Freq</label
+                  >
+                  <input
+                    class="var-spinner"
+                    id="frequencyspinner"
+                    name="value"
+                   ontouchstart=""
+                 
+                  />
+                  <span>rad/s</span>
+                </div>
+                <!-- <div class="var-slider" id="frequencySlider"></div> -->
+              </div>
 
             </div>
           </div>

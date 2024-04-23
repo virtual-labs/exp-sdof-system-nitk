@@ -27,41 +27,36 @@ em:current font size
     width: 100%;
     margin: unset;
   }
-
-
-
-  #simscreen {
-    height: 400px;
-    width: 550px;
-    margin: 0 auto;
-    /* Centers the element horizontally */
-
+  .title-div h1 {
+    font-size: 2.5rem;
   }
-
-  .canvas__div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .task-title {
+    font-size: 2rem;
   }
-
-  #commentboxleft {
-    margin-left: 200px;
-
+  .tool-menu {
+    font-size: 2rem;
   }
-
-  #clearGraph {
-    position: relative;
-    left: 165px;
-    top: -388px;
-    width: 80px;
-    height: 20px;
-    cursor: pointer;
+  .icons {
+    width: 4rem;
+    height: 4rem;
   }
-  .variables-sections{
-    position: relative;
-    left: 72px;
+  .ctrl-icons {
+    width: 3rem;
+    height: 3rem;
   }
-
+  .canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+  }
+  .div__control img {
+    width: 3rem;
+    height: 2.8rem;
+  }
+  #variables {
+    width: 100%;
+  }
 
 
 }
@@ -126,7 +121,7 @@ em:current font size
   }
 
   .tool-list span {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .main__task-div:nth-child(4) {
@@ -238,11 +233,11 @@ em:current font size
   .unitFreq{
     /* margin-left: 0px; */
   }
-  .variables-sections{
+  /* .variables-sections{
     position: relative;
     left: -44px;
    
-  }
+  } */
  
 
 }
@@ -268,7 +263,7 @@ em:current font size
   }
 
   .tool-list span {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   #simscreen {
@@ -315,11 +310,11 @@ em:current font size
     height: 20px;
     cursor: pointer;
   }
-  .variables-sections{
+  /* .variables-sections{
     position: relative;
     left: -2px;
     
-  }
+  } */
 
 
 
@@ -432,10 +427,10 @@ em:current font size
     cursor: pointer;
   }
 
-  .variables-sections{
+  /* .variables-sections{
     position: relative;
     left: -4px;
-  }
+  } */
 
 
 }
@@ -591,10 +586,16 @@ em:current font size
   label {
     font-size: 1.5rem;
   }
-  .variables-sections{
+  /* .variables-sections{
     position: relative;
     left: -1px;
    
+  } */
+  #main__task-div {
+    height: 400px;
+    width: 550px;
+    margin-top: 65px;
+    margin-bottom: 30px;
   }
 
 
@@ -653,13 +654,13 @@ em:current font size
   #commentboxright {
     margin-left: 59px;
   }
-  .variables-sections{
+  /* .variables-sections{
     position: relative;
     left: -4px;
     margin-top: 2px;
    
    
-  }
+  } */
   #titleincanvas {
     position: relative;
     top: -76px;
@@ -790,9 +791,9 @@ em:current font size
     font-size: 12px;
   }
 
-  .main__task-div {
+  /* .main__task-div {
     width: 98%;
-  }
+  } */
 
   canvas#storegraph {
     position: absolute;
@@ -866,12 +867,12 @@ em:current font size
     position: relative;
     left: -20px;
   }
-  #stiffslider,
+  /* #stiffslider,
   #massslider,
   #dampslider {
     margin-right: 50px;
 
-  }
+  } */
 
 
 
@@ -880,11 +881,11 @@ em:current font size
   #commentboxright {
     margin-left: 60px;
   }
-  .variables-sections{
+  /* .variables-sections{
     position: relative;
     left: 18px;
     margin-top: 10px; 
-  }
+  } */
 
 }
 
@@ -946,18 +947,18 @@ em:current font size
     margin-left: 18px;
    
   }
-  #stiffslider,
+  /* #stiffslider,
   #massslider,
   #dampslider {
     margin-right: 70px;
     
-  }
-  .variables-sections{
+  } */
+  /* .variables-sections{
     position: relative;
     left: 20px;
     margin-top: 16px;
    
-  }
+  } */
 }
 
 /* 
