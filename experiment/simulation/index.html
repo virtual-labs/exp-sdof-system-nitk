@@ -96,10 +96,10 @@
               <div id="commentboxleft"></div>
               <canvas id="simscreen" height="400px" width="550px"></canvas>
               <div id="titleincanvas">Harmonic Excitation</div>
-
+              <canvas id="graphscreen" height="400px" width="550px"></canvas>
+              <canvas id="storegraph" height="400px" width="550px"></canvas>
             </div>
-            <canvas id="graphscreen" height="400px" width="550px"></canvas>
-            <canvas id="storegraph" height="400px" width="550px"></canvas>
+         
 
             <div class="graph-div display-hide">
               <canvas id="graphscreen1  " class="canvas"></canvas>
@@ -167,7 +167,7 @@
               <div class="var-div">
                 <div class="input-container">
                   <label for="stiffnessSpinner">Stiffness</label>
-                  <input
+                  <input type="number"
                     class="var-spinner"
                     id="stiffspinner"
                     name="value"
@@ -180,7 +180,7 @@
               <div class="var-div">
                 <div class="input-container">
                   <label for="massSpinner">Mass</label>
-                  <input class="var-spinner" id="massspinner" name="value" />
+                  <input type="number" class="var-spinner" id="massspinner" name="value" />
                   <span>k/g</span>
                 </div>
                 <div class="var-slider" id="massslider"></div>
@@ -191,7 +191,7 @@
                     >Damping<br />
                     Ratio</label
                   >
-                  <input
+                  <input type="number"
                     class="var-spinner"
                     id="dampspinner"
                     name="value"
@@ -207,7 +207,7 @@
                     >Force Amp
                    </label
                   >
-                  <input
+                  <input type="number"
                     class="var-spinner"
                     id="forcespinner"
                     name="value"
@@ -222,7 +222,7 @@
                   <label for="frequencySpinner"
                     >Forcing Freq</label
                   >
-                  <input
+                  <input type="number"
                     class="var-spinner"
                     id="frequencyspinner"
                     name="value"

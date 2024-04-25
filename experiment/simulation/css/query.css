@@ -3,6 +3,16 @@ rem: root font size
 em:current font size
 */
 /* *************only screen******* */
+@media (max-width: 91em) {
+#clearGraph {
+  position: relative;
+  left: 218px;
+  top: -388px;
+  width: 80px;
+  height: 20px;
+  cursor: pointer;
+}
+}
 
 /* **************************** */
 /* Below 1344px (Smaller Desktops) */
@@ -13,8 +23,28 @@ em:current font size
     height: 400px;
     width: 550px;
     padding-top: 20px;
+    
 
   }
+  /* #canvas-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  } */
+  #commentboxleft {
+    margin-left: 15px;
+    position: relative;
+    top: 420px;
+}
+#clearGraph {
+  position: relative;
+  left: 218px;
+  top: -388px;
+  width: 80px;
+  height: 20px;
+  cursor: pointer;
+}
 
 }
 
@@ -57,7 +87,25 @@ em:current font size
   #variables {
     width: 100%;
   }
-
+  /* #simscreen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  } */
+  #commentboxleft {
+    margin-left: 150px;
+    position: relative;
+    top: 420px;
+}
+#clearGraph {
+  position: relative;
+  left: 305px;
+  top: -388px;
+  width: 80px;
+  height: 20px;
+  cursor: pointer;
+}
 
 }
 
@@ -151,13 +199,13 @@ em:current font size
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
 
-  #simscreen {
+  /* #simscreen {
     height: 400px;
     width: 550px;
     margin: 0 auto;
-    /* Centers the element horizontally */
+  
 
-  }
+  } */
 
   .canvas__div {
     display: flex;
@@ -167,6 +215,8 @@ em:current font size
 
   #commentboxleft {
     margin-left: 150px;
+    position: relative;
+    top: 420px;
 
   }
 
@@ -238,6 +288,13 @@ em:current font size
     left: -44px;
    
   } */
+  #titleincanvas {
+    position: relative;
+        top: -30px;
+        left: -118px;
+        font-size: 17px;
+   
+  }
  
 
 }
@@ -282,8 +339,8 @@ em:current font size
 
   #commentboxleft {
     margin-left: 100px;
-
-
+    position: relative;
+    top: 420px;
   }
 
   canvas#storegraph {
@@ -396,7 +453,7 @@ em:current font size
 
   #titleincanvas {
     position: relative;
-    top: -70px;
+    top: -60px;
     left: -79px;
     font-size: 17px;
    
@@ -533,7 +590,7 @@ em:current font size
   }
 
   #commentboxleft {
-    margin-left: 70px;
+    margin-left: 35px;
     margin-top: -10px;
     font-size: 12px;
 
@@ -542,7 +599,7 @@ em:current font size
 
   #titleincanvas {
     position: relative;
-    top: -72px;
+    top: -60px;
     left: -85px;
     font-size: 13px;
   }
@@ -574,9 +631,6 @@ em:current font size
 
   
 
-  #commentboxright {
-    margin-left: 114px;
-  }
 
 
 
@@ -651,9 +705,7 @@ em:current font size
 @media(max-width:27em){
 
 
-  #commentboxright {
-    margin-left: 59px;
-  }
+
   /* .variables-sections{
     position: relative;
     left: -4px;
@@ -663,7 +715,7 @@ em:current font size
   } */
   #titleincanvas {
     position: relative;
-    top: -76px;
+    top: -60px;
     left: -88px;
     font-size: 12px;
   }
@@ -777,12 +829,7 @@ em:current font size
     justify-content: center;
   }
 
-  #commentboxleft {
-    margin-left: 64px;
-    margin-top: -20px;
-    font-size: 11px;
 
-  }
 
   #titleincanvas {
     position: relative;
@@ -821,7 +868,7 @@ em:current font size
   }
 
   #commentboxleft {
-    margin-left: 64px;
+    margin-left: 13px;
     margin-top: -20px;
 
 
@@ -878,9 +925,7 @@ em:current font size
 
 
 
-  #commentboxright {
-    margin-left: 60px;
-  }
+
   /* .variables-sections{
     position: relative;
     left: 18px;
@@ -919,7 +964,7 @@ em:current font size
   }
 
   #commentboxleft {
-    margin-left: 64px;
+    margin-left: 22px;
     margin-top: -26px;
     font-size: 10.5px;
 
